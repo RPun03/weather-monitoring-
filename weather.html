@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data</title>
+</head>
+<body>
+    <h1>Weather Data for {{ data['name'] }}</h1>
+    <p>Main Condition: {{ data['weather'][0]['main'] }}</p>
+    <p>Description: {{ data['weather'][0]['description'] }}</p>
+    <p>Temperature: {{ data['main']['temp'] }} °C</p>
+    <p>Feels Like: {{ data['main']['feels_like'] }} °C</p>
+    <p>Humidity: {{ data['main']['humidity'] }}%</p>
+    <p>Wind Speed: {{ data['wind']['speed'] }} m/s</p>
+    <a href="/">Back to Home</a>
+</body>
+</html>
