@@ -1,0 +1,8 @@
+requests
+psycopg2-binary # PostgreSQL driver
+SQLAlchemy
+APScheduler
+matplotlib # For visualizations (optional)
+Flask # Web server (optional)
+plotly # For interactive charts (optional)
+celery
