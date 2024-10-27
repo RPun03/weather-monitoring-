@@ -18,7 +18,7 @@ def main():
         print("Fetching weather data...")
         for city in CITIES:
             # Fetch weather data for each city
-            weather_data = fetch_weather_data(city, OPENWEATHER_API_KEY)
+            weather_data = fetch_weather_data(city, 2f79acc38c5935a0ee85c447a15ab585)
 
             if weather_data:
                 # Store the fetched weather data into the database
